@@ -9,11 +9,14 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "Do I need permit to build a small shed?",
+        value: "Do I need permit to build a small shed?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    {
+        text: "Do I need permit to build a porch 200 sqft large and less than one foot above ground?",
+        value: "Do I need permit to build a porch 200 sqft large and less than one foot above ground?"
+    },
+    { text: "What types of work require permits?", value: "What types of work require permits?" }
 ];
 
 interface Props {

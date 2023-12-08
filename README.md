@@ -443,3 +443,21 @@ so please use the support mechanisms described above, and we will do our best to
 ### Note
 
 >Note: The PDF documents used in this demo contain information generated using a language model (Azure OpenAI Service). The information contained in these documents is only for demonstration purposes and does not reflect the opinions or beliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information contained in this document. All rights reserved to Microsoft.
+
+### Getting help
+
+This is a sample built to demonstrate the capabilities of modern Generative AI apps and how they can be built in Azure.
+For help with deploying this sample, please post in [GitHub Issues](/issues). If you're a Microsoft employee, you can also post in [our Teams channel](https://aka.ms/azai-python-help).
+
+This repository is supported by the maintainers, _not_ by Microsoft Support,
+so please use the support mechanisms described above, and we will do our best to help you out.
+
+### Note
+
+>Note: The PDF documents used in this demo contain information generated using a language model (Azure OpenAI Service). The information contained in these documents is only for demonstration purposes and does not reflect the opinions or beliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information contained in this document. All rights reserved to Microsoft.
+
+### Modify chat promopts and logo
+
+To modify chat prompts go to app/backend/approaches/chatreadretrieveread.py and make the changes
+For branding purposes, upload new favicon.ico to app/frontend/public folder and new logo as logo svg to pp/frontend/src/assets
+to reflect the changes and adjust header with the links and alt text go to \app\frontend\src\pages\layout\Layout.tsx 
