@@ -31,11 +31,12 @@ if ($env:AZURE_ADLS_GEN2_STORAGE_ACCOUNT) {
 if ($env:AZURE_SEARCH_ANALYZER_NAME) {
   $searchAnalyzerNameArg = "--searchanalyzername $env:AZURE_SEARCH_ANALYZER_NAME"
 }
-$argumentList = "./scripts/prepdocs.py `"$cwd/data/*`" $adlsGen2StorageAccountArg $adlsGen2FilesystemArg $adlsGen2FilesystemPathArg $searchAnalyzerNameArg " + `
+$argumentList = "./scripts/prepdocs.py `"$cwd/data/HR-Policies-and-Procedures-09262023_2023-11-17-150917_svsl.pdf`" $adlsGen2StorageAccountArg $adlsGen2FilesystemArg $adlsGen2FilesystemPathArg $searchAnalyzerNameArg " + `
 "$aclArg --storageaccount $env:AZURE_STORAGE_ACCOUNT --container $env:AZURE_STORAGE_CONTAINER " + `
 "--searchservice $env:AZURE_SEARCH_SERVICE --openaihost `"$env:OPENAI_HOST`" " + `
 "--openaiservice `"$env:AZURE_OPENAI_SERVICE`" --openaikey `"$env:OPENAI_API_KEY`" " + `
 "--openaiorg `"$env:OPENAI_ORGANIZATION`" --openaideployment `"$env:AZURE_OPENAI_EMB_DEPLOYMENT`" " + `
 "--openaimodelname `"$env:AZURE_OPENAI_EMB_MODEL_NAME`" --index $env:AZURE_SEARCH_INDEX " + `
 "--formrecognizerservice $env:AZURE_FORMRECOGNIZER_SERVICE --tenantid $env:AZURE_TENANT_ID -v"
+"--remove"
 Start-Process -FilePath $venvPythonPath -ArgumentList $argumentList -Wait -NoNewWindow
