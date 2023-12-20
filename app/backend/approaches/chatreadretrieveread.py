@@ -69,6 +69,11 @@ Steps taken:
 - list circumstances home based business is allowed without conditional use permit
 - list business that are specifically not permitted in the home
 - refer to conditional use permit process 
+Question: Can I repair my car at my residence?
+Answer: The City's Zoning Ordinance does not allow you to perform auto repair or operate an auto repair shop in residential or apartment districts.
+Steps taken:
+- search all documents to see rules for individuals repairing their own car on their own property and not operating car repair shop 
+- follow up with additional questions if not clear
 ++++
 {follow_up_questions_prompt}
 {injected_prompt}
