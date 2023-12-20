@@ -34,7 +34,7 @@ const Layout = () => {
                                         src={github}
                                         alt="CoVB logo"
                                         aria-label="Link to CoVB website"
-                                        width="20px"
+                                        width="30px"
                                         //height="20px"
                                         className={styles.githubLogo}
                                     />

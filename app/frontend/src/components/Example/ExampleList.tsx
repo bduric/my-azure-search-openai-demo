@@ -9,14 +9,14 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "Do I need permit to build a small shed?",
-        value: "Do I need permit to build a small shed?"
+        text: "Can I repair my car at my residence?",
+        value: "Can I repair my car at my residence?"
     },
     {
-        text: "Do I need permit to build a porch 200 sqft large and less than one foot above ground?",
-        value: "Do I need permit to build a porch 200 sqft large and less than one foot above ground?"
+        text: "Do I need permit to construct a fence?",
+        value: "Do I need permit to construct a fence?"
     },
-    { text: "What types of work require permits?", value: "What types of work require permits?" }
+    { text: "Can I operate my business from my residence?", value: "Can I operate my business from my residence?" }
 ];
 
 interface Props {
