@@ -21,20 +21,20 @@ class ChatApproach(Approach, ABC):
     ASSISTANT = "assistant"
 
     query_prompt_few_shots = [
-        {"role": USER, "content": "How did crypto do last year?"},
-        {"role": ASSISTANT, "content": "Summarize Cryptocurrency Market Dynamics from last year"},
-        {"role": USER, "content": "What are my health plans?"},
-        {"role": ASSISTANT, "content": "Show available health plans"},
+        {"role": USER, "content": "What permits are required for new constructions?"},
+        {"role": ASSISTANT, "content": "List neccessary building permits in bullet points along with the fees and short explanation"},
+        {"role": USER, "content": "What is the cost of building permits for new constructions?"},
+        {"role": ASSISTANT, "content": "Ask follow up question for the building size in sq ft if not provided and perform calculations with explanations"},
     ]
     NO_RESPONSE = "0"
 
     follow_up_questions_prompt_content = """Generate 3 very brief follow-up questions that the user would likely ask next.
-    Enclose the follow-up questions in double angle brackets. Example:
-    <<Are there exclusions for prescriptions?>>
-    <<Which pharmacies can be ordered from?>>
-    <<What is the limit for over-the-counter medication?>>
-    Do no repeat questions that have already been asked.
-    Make sure the last question ends with ">>".
+Enclose the follow-up questions in double angle brackets. Example:
+<<Are there any special permits based on my location?>>
+<<What neighborhoods require special permits?>>
+<<Is there a different process for residents vs. comercial developers for permiting purposes?>>
+Do no repeat questions that have already been asked.
+Make sure the last question ends with ">>".
     """
 
     query_prompt_template = """Below is a history of the conversation so far, and a new question asked by the user that needs to be answered by searching in a knowledge.
