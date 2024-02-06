@@ -9,8 +9,8 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "Can I repair my car at my residence?",
-        value: "Can I repair my car at my residence?"
+        text: "Can I perform minor car repairs at my residence?",
+        value: "Can I perform minor car repairs at my residence?"
     },
     {
         text: "Do I need permit to construct a fence?",

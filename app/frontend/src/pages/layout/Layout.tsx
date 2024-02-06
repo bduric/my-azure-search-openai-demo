@@ -14,7 +14,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>GPT + CoVB data | Demo</h3>
+                        <h3 className={styles.headerTitle}>govIQ + City of Virginia Beach</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -34,9 +34,9 @@ const Layout = () => {
                                         src={github}
                                         alt="CoVB logo"
                                         aria-label="Link to CoVB website"
-                                        width="30px"
+                                        width="40px"
                                         //height="20px"
-                                        className={styles.githubLogo}
+                                        //className={styles.githubLogo}
                                     />
                                 </a>
                             </li>

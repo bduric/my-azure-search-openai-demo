@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-color: #222222;
+    background-color: #0e3860;
     color: #f2f2f2;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .headerNavLeftMargin {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .headerRightText {
