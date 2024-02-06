@@ -14,7 +14,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>govIQ + City of Virginia Beach</h3>
+                        <p className={styles.headerTitle}>govIQ + City of Virginia Beach</p>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -42,7 +42,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>AI Powered Search</h4>
+                    <p className={styles.headerRightText}>AI Powered Search</p>
                     {useLogin && <LoginButton />}
                 </div>
             </header>

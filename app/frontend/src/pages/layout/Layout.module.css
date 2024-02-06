@@ -32,6 +32,8 @@
 .headerTitle {
     margin-left: 12px;
     font-weight: 600;
+    font-size: larger;
+    line-height: 1.5;
 }
 
 .headerNavList {
@@ -65,7 +67,9 @@
 
 .headerRightText {
     font-weight: normal;
+    font-size: large;
     margin-left: 40px;
+    line-height: 1.5;
 }
 
 .microsoftLogo {
