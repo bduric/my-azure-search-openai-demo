@@ -30,12 +30,8 @@
     margin: 0;
     font-size: 1.3em;
     width: 280px;
-<<<<<<< HEAD
     height: 100px;
     line-height: 1.5;
-=======
-    min-height: 100px;
->>>>>>> 9c68ecc172e42f0ce78e49213499084135347ca1
 }
 
 @media only screen and (max-height: 780px) {
