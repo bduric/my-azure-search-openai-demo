@@ -3,9 +3,8 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-    "Can I repair my car at my residence?",
-    "Do I need permit to construct a fence?",
-    "Can I operate my business from my residence?"
+    "Are there any benefits or rights associated with reinstatement and reemployment?",
+    "What accommodations are available for employees with disabilities?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
